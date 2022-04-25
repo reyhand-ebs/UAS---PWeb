@@ -47,7 +47,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service card-effect bounceInUp">
                         <div class="iconbox">
-                            <i class='bx bxs-check-shield'></i>
+                            <i class='bx bx-signal-5'></i>
                         </div>
                         <h5 class="mt-4 mb-2">Berbagi dan Bersosialisasi.</h5>
                         <p>Temukan dan jalin pertemanan. Dapatkan aktifitas kerabatmu.</p>
@@ -56,7 +56,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service card-effect">
                         <div class="iconbox">
-                            <i class='bx bxs-comment-detail'></i>
+                            <i class='bx bxs-file-blank'></i>
                         </div>
                         <h5 class="mt-4 mb-2">Syarat Pendaftaran Mudah.</h5>
                         <p>Cukup beberapa detik untuk bergabung dan merasakan website tubirit.</p>
@@ -65,7 +65,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="service card-effect">
                         <div class="iconbox">
-                            <i class='bx bxs-cog'></i>
+                            <i class='bx bxs-bookmarks'></i>
                         </div>
                         <h5 class="mt-4 mb-2">Buat dan Sebarkan Rekomendasimu</h5>
                         <p>Tambah dan bagikan rekomendasi untuk memotivasi yang lain untuk membaca.</p>
@@ -76,285 +76,56 @@
     </section>
     <!-- FEATURES -->
 
-    <!-- PROJECTS -->
-    <section id="portfolio">
-        <div class="container-fluid">
-            <div class="row mb-5">
-                <div class="col-md-8 mx-auto text-center">
-                    <h6 class="text-primary">PROJECTS</h6>
-                    <h1>Our Recent Work</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga
-                        in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
-                </div>
-            </div>
-            <div class="row g-3">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="img/pro1.jpg" alt="">
-                        <div class="overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="img/pro2.jpg" alt="">
-                        <div class="overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="img/pro3.jpg" alt="">
-                        <div class="overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="img/pro4.jpg" alt="">
-                        <div class="overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="img/pro5.jpg" alt="">
-                        <div class="overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="img/pro6.jpg" alt="">
-                        <div class="overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- PROJECTS -->
-
-    <!-- PRICING -->
-    <section id="pricing" class="bg-light">
+    <!-- CONTENT -->
+    <section id="konten">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md-8 mx-auto text-center">
-                    <h6 class="text-primary">PRICING</h6>
-                    <h1>Our Fair & Simple Pricing</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga
-                        in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
+                    <h1>Bagaimana cara kerja Tubirit</h1>
+                    <p>Temukan rekomendasi anda melalui komunitas dan teknologi di Tubirit</p>
                 </div>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="pricing card-effect text-center">
-                        <h6>STARTER</h6>
-                        <h1>$99</h1>
-                        <hr>
-                        <ul class="list-unstyled mb-4">
-                            <li><i class='bx bxs-check-circle'></i>
-                                Premium support</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                30+ Webmaster Tools</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                Drag & Drop Builder</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                eCommerce Store</li>
-                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
-                        </ul>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="pricing card-effect text-center">
-                        <h6>STARTER</h6>
-                        <h1>$199</h1>
-                        <hr>
-                        <ul class="list-unstyled mb-4">
-                            <li><i class='bx bxs-check-circle'></i>
-                                Premium support</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                30+ Webmaster Tools</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                Drag & Drop Builder</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                eCommerce Store</li>
-                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
-                        </ul>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="pricing card-effect text-center">
-                        <h6>STARTER</h6>
-                        <h1>$299</h1>
-                        <hr>
-                        <ul class="list-unstyled mb-4">
-                            <li><i class='bx bxs-check-circle'></i>
-                                Premium support</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                30+ Webmaster Tools</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                Drag & Drop Builder</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                eCommerce Store</li>
-                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
-                        </ul>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="pricing card-effect text-center">
-                        <h6>STARTER</h6>
-                        <h1>$399</h1>
-                        <hr>
-                        <ul class="list-unstyled mb-4">
-                            <li><i class='bx bxs-check-circle'></i>
-                                Premium support</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                30+ Webmaster Tools</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                Drag & Drop Builder</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                eCommerce Store</li>
-                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
-                        </ul>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- PRICING -->
-
-    <!-- TEAM -->
-    <section id="team">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-8 mx-auto text-center">
-                    <h6 class="text-primary">TEAM</h6>
-                    <h1>Meet Our Crew Members</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga
-                        in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
-                </div>
-            </div>
-            <div class="row text-center g-4">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="team-member card-effect">
-                        <img src="img/team1.jpg" alt="">
-                        <h5 class="mb-0 mt-4">Sharbat Khan</h5>
-                        <p>Web Developer</p>
-                        <div class="social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="team-member card-effect">
-                        <img src="img/team2.jpg" alt="">
-                        <h5 class="mb-0 mt-4">Sharbat Khan</h5>
-                        <p>Web Developer</p>
-                        <div class="social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="team-member card-effect">
-                        <img src="img/team3.jpg" alt="">
-                        <h5 class="mb-0 mt-4">Sharbat Khan</h5>
-                        <p>Web Developer</p>
-                        <div class="social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="team-member card-effect">
-                        <img src="img/team4.jpg" alt="">
-                        <h5 class="mb-0 mt-4">Sharbat Khan</h5>
-                        <p>Web Developer</p>
-                        <div class="social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- TEAM -->
-
-    <!-- BLOG -->
-    <section id="blog" class="bg-light">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-8 mx-auto text-center">
-                    <h6 class="text-primary">BLOG</h6>
-                    <h1>Latest News From The Blog</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga
-                        in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="blog-post card-effect">
-                        <img src="img/blog1.jpg" alt="">
-                        <h5 class="mt-4"><a href="#">harum vitae debitis sapiente praesentium aperiam au</a></h5>
-                        <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="blog-post card-effect">
-                        <img src="img/blog2.jpg" alt="">
-                        <h5 class="mt-4"><a href="#">harum vitae debitis sapiente praesentium aperiam au</a></h5>
-                        <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="blog-post card-effect">
-                        <img src="img/blog3.jpg" alt="">
-                        <h5 class="mt-4"><a href="#">harum vitae debitis sapiente praesentium aperiam au</a></h5>
-                        <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- BLOG -->
+    <!-- CONTENT -->
 
     <!-- CONTACT -->
     <section id="contact">
