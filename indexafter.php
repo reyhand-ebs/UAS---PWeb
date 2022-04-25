@@ -4,28 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tubirit</title>
+    <title>Front Page</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/boxicons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
     <?php
-    include './pages/include/header.php';
+    include './pages/header.php';
     ?>
     <!-- HERO -->
     <div class="container col-xxl-10 px-3 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-md-8 col-lg-6">
+            <div class="col-10 col-sm-8 col-lg-6">
                 <img src="./img/hero.png" class="d-block mx-lg-auto img-fluid" alt="Website Responsive" width="700" height="500">
             </div>
             <div class="col-lg-6">
                 <h1 class="display-5 fw-bold lh-1 mb-3">Halo, Kita adalah Tubirit</h1>
-                <p class="lead">Platform membaca yang paling diminati di Indonesia</p>
+                <p class="lead">Membaca semakin mudah. Baca buku, soft file buku, dan berbagi rekomendasi buku bacaan. Di mana pun, kapan pun dengan nyaman bersama setiap orang.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                     <button type="button" class="btn btn-primary btn-md px-4 me-md-2 rounded-pill">Mulai Membaca</button>
                 </div>
@@ -34,13 +33,15 @@
     </div>
     <!-- //HERO -->
 
-    <!-- FEATURES -->
-    <section id="feature">
+    <!-- SERVICE -->
+    <section id="service">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md-8 mx-auto text-center">
-                    <h1>Membaca Semakin Mudah</h1>
-                    <p>Membaca semakin mudah. Baca buku, soft file buku, dan berbagi rekomendasi buku bacaan. Di mana pun, kapan pun dengan nyaman bersama setiap orang.</p>
+                    <h6 class="text-primary">SERVICE</h6>
+                    <h1>Our Services</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga
+                        in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
                 </div>
             </div>
             <div class="row g-4">
@@ -49,8 +50,9 @@
                         <div class="iconbox">
                             <i class='bx bxs-check-shield'></i>
                         </div>
-                        <h5 class="mt-4 mb-2">Berbagi dan Bersosialisasi.</h5>
-                        <p>Temukan dan jalin pertemanan. Dapatkan aktifitas kerabatmu.</p>
+                        <h5 class="mt-4 mb-2">Service</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                            perferendis </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
@@ -58,8 +60,9 @@
                         <div class="iconbox">
                             <i class='bx bxs-comment-detail'></i>
                         </div>
-                        <h5 class="mt-4 mb-2">Syarat Pendaftaran Mudah.</h5>
-                        <p>Cukup beberapa detik untuk bergabung dan merasakan website tubirit.</p>
+                        <h5 class="mt-4 mb-2">Service</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                            perferendis </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
@@ -67,8 +70,87 @@
                         <div class="iconbox">
                             <i class='bx bxs-cog'></i>
                         </div>
-                        <h5 class="mt-4 mb-2">Buat dan Sebarkan Rekomendasimu</h5>
-                        <p>Tambah dan bagikan rekomendasi untuk memotivasi yang lain untuk membaca.</p>
+                        <h5 class="mt-4 mb-2">Service</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                            perferendis </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-heart'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Service</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                            perferendis </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-rocket'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Service</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                            perferendis </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-doughnut-chart'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Service</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                            perferendis </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICES -->
+
+    <!-- FEATURES -->
+    <section class="row w-100 py-0 bg-light" id="features">
+        <div class="col-lg-6 col-img"></div>
+        <div class="col-lg-6 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <h6 class="text-primary">WHY TO CHOOES US</h6>
+                        <h1>Best solution for your business</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque
+                            fuga
+                            in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
+
+                        <div class="feature d-flex mt-5">
+                            <div class="iconbox me-3">
+                                <i class='bx bxs-comment-edit'></i>
+                            </div>
+                            <div>
+                                <h5>Feature</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo </p>
+                            </div>
+                        </div>
+                        <div class="feature d-flex">
+                            <div class="iconbox me-3">
+                                <i class='bx bxs-user-circle'></i>
+                            </div>
+                            <div>
+                                <h5>Feature</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo </p>
+                            </div>
+                        </div>
+                        <div class="feature d-flex">
+                            <div class="iconbox me-3">
+                                <i class='bx bxs-download'></i>
+                            </div>
+                            <div>
+                                <h5>Feature</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo </p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -389,7 +471,7 @@
     </section>
     <!-- CONTACT -->
     <?php
-    include './pages/include/footer.php';
+    include './pages/footer.php';
     ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
