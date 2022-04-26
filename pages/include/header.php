@@ -11,7 +11,7 @@
     <nav class="navbar navbar-expand-lg py-2 sticky-top navbar-light bg-white">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img class="logo" src="img/logo-dark.svg" alt="">
+                <img class="logo" src="img/logo-dark.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,16 +26,10 @@
                         <a class="nav-link" href="#features">Kategori</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-                <button class="btn btn-primary ms-lg-3">Join Us</button>
+                <button class="btn btn-sm btn-primary ms-md-3 rounded-3">Join Us</button>
             </div>
         </div>
     </nav>

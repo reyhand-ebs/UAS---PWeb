@@ -13,15 +13,13 @@
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-4">
-                        <img class="logo" src="img/logo-white.svg" alt="">
+                        <img class="logo" src="img/logo-white.png" alt="">
                     </div>
                     <div class="col-lg-2">
                         <h5 class="text-white">Brand</h5>
                         <ul class="list-unstyled">
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Kategori</a></li>
+                            <li><a href="#">Kontak</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-2">
@@ -37,8 +35,9 @@
                         <h5 class="text-white">Contact</h5>
                         <ul class="list-unstyled">
                             <li>Address: Jl. TB Simatupang</li>
+                            <li>Email: chiekal.mulia@students.esqbs.ac.id</li>
+                            <li>Email: khaira.isyara@students.esqbs.ac.id</li>
                             <li>Email: mohamad.reyhand.f@students.esqbs.ac.id</li>
-                            <li>Phone: (+62)822-4668.0795 </li>
                         </ul>
                     </div>
                 </div>
