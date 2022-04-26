@@ -138,7 +138,7 @@
                 </div>
             </div>
 
-            <form action="" class="row g-3 justify-content-center">
+            <form action="$_POST" class="row g-3 justify-content-center">
                 <div class="col-md-5">
                     <input type="text" class="form-control" placeholder="Full Name">
                 </div>
