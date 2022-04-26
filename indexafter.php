@@ -4,439 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front Page</title>
+    <title>Tubirit</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
     <?php
-    include './pages/header.php';
+    include './pages/include/header.php';
     ?>
-    <!-- HERO -->
-    <div class="container col-xxl-10 px-3 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img src="./img/hero.png" class="d-block mx-lg-auto img-fluid" alt="Website Responsive" width="700" height="500">
+    <!-- SLIDER -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777"></rect>
+                </svg>
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Example headline.</h1>
+                        <p>Some representative placeholder content for the first slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3">Halo, Kita adalah Tubirit</h1>
-                <p class="lead">Membaca semakin mudah. Baca buku, soft file buku, dan berbagi rekomendasi buku bacaan. Di mana pun, kapan pun dengan nyaman bersama setiap orang.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button" class="btn btn-primary btn-md px-4 me-md-2 rounded-pill">Mulai Membaca</button>
+            <div class="carousel-item active carousel-item-start">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777"></rect>
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item-next carousel-item-start">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777"></rect>
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>One more for good measure.</h1>
+                        <p>Some representative placeholder content for the third slide of this carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                    </div>
                 </div>
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <!-- //HERO -->
+    <!-- SLIDER -->
 
-    <!-- SERVICE -->
-    <section id="service">
+    <!-- NAME -->
+    <section id="name">
         <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-8 mx-auto text-center">
-                    <h6 class="text-primary">SERVICE</h6>
-                    <h1>Our Services</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga
-                        in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service card-effect bounceInUp">
-                        <div class="iconbox">
-                            <i class='bx bxs-check-shield'></i>
-                        </div>
-                        <h5 class="mt-4 mb-2">Service</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
-                            perferendis </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service card-effect">
-                        <div class="iconbox">
-                            <i class='bx bxs-comment-detail'></i>
-                        </div>
-                        <h5 class="mt-4 mb-2">Service</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
-                            perferendis </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service card-effect">
-                        <div class="iconbox">
-                            <i class='bx bxs-cog'></i>
-                        </div>
-                        <h5 class="mt-4 mb-2">Service</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
-                            perferendis </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service card-effect">
-                        <div class="iconbox">
-                            <i class='bx bxs-heart'></i>
-                        </div>
-                        <h5 class="mt-4 mb-2">Service</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
-                            perferendis </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service card-effect">
-                        <div class="iconbox">
-                            <i class='bx bxs-rocket'></i>
-                        </div>
-                        <h5 class="mt-4 mb-2">Service</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
-                            perferendis </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service card-effect">
-                        <div class="iconbox">
-                            <i class='bx bxs-doughnut-chart'></i>
-                        </div>
-                        <h5 class="mt-4 mb-2">Service</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
-                            perferendis </p>
-                    </div>
-                </div>
-            </div>
+            <h1>Welcome home, Name</h1>
+            <hr class="divider">
         </div>
     </section>
-    <!-- SERVICES -->
+    <!-- NAME -->
 
-    <!-- FEATURES -->
-    <section class="row w-100 py-0 bg-light" id="features">
-        <div class="col-lg-6 col-img"></div>
-        <div class="col-lg-6 py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 offset-md-1">
-                        <h6 class="text-primary">WHY TO CHOOES US</h6>
-                        <h1>Best solution for your business</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque
-                            fuga
-                            in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
-
-                        <div class="feature d-flex mt-5">
-                            <div class="iconbox me-3">
-                                <i class='bx bxs-comment-edit'></i>
-                            </div>
-                            <div>
-                                <h5>Feature</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo </p>
-                            </div>
-                        </div>
-                        <div class="feature d-flex">
-                            <div class="iconbox me-3">
-                                <i class='bx bxs-user-circle'></i>
-                            </div>
-                            <div>
-                                <h5>Feature</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo </p>
-                            </div>
-                        </div>
-                        <div class="feature d-flex">
-                            <div class="iconbox me-3">
-                                <i class='bx bxs-download'></i>
-                            </div>
-                            <div>
-                                <h5>Feature</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- FEATURES -->
-
-    <!-- PROJECTS -->
-    <section id="portfolio">
-        <div class="container-fluid">
-            <div class="row mb-5">
-                <div class="col-md-8 mx-auto text-center">
-                    <h6 class="text-primary">PROJECTS</h6>
-                    <h1>Our Recent Work</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga
-                        in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
-                </div>
-            </div>
-            <div class="row g-3">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="img/pro1.jpg" alt="">
-                        <div class="overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="img/pro2.jpg" alt="">
-                        <div class="overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="img/pro3.jpg" alt="">
-                        <div class="overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="img/pro4.jpg" alt="">
-                        <div class="overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="img/pro5.jpg" alt="">
-                        <div class="overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="img/pro6.jpg" alt="">
-                        <div class="overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- PROJECTS -->
-
-    <!-- PRICING -->
-    <section id="pricing" class="bg-light">
+    <!-- CONTENT -->
+    <section id="konten-1">
         <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-8 mx-auto text-center">
-                    <h6 class="text-primary">PRICING</h6>
-                    <h1>Our Fair & Simple Pricing</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga
-                        in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="pricing card-effect text-center">
-                        <h6>STARTER</h6>
-                        <h1>$99</h1>
-                        <hr>
-                        <ul class="list-unstyled mb-4">
-                            <li><i class='bx bxs-check-circle'></i>
-                                Premium support</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                30+ Webmaster Tools</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                Drag & Drop Builder</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                eCommerce Store</li>
-                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
-                        </ul>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="pricing card-effect text-center">
-                        <h6>STARTER</h6>
-                        <h1>$199</h1>
-                        <hr>
-                        <ul class="list-unstyled mb-4">
-                            <li><i class='bx bxs-check-circle'></i>
-                                Premium support</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                30+ Webmaster Tools</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                Drag & Drop Builder</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                eCommerce Store</li>
-                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
-                        </ul>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="pricing card-effect text-center">
-                        <h6>STARTER</h6>
-                        <h1>$299</h1>
-                        <hr>
-                        <ul class="list-unstyled mb-4">
-                            <li><i class='bx bxs-check-circle'></i>
-                                Premium support</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                30+ Webmaster Tools</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                Drag & Drop Builder</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                eCommerce Store</li>
-                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
-                        </ul>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="pricing card-effect text-center">
-                        <h6>STARTER</h6>
-                        <h1>$399</h1>
-                        <hr>
-                        <ul class="list-unstyled mb-4">
-                            <li><i class='bx bxs-check-circle'></i>
-                                Premium support</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                30+ Webmaster Tools</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                Drag & Drop Builder</li>
-                            <li><i class='bx bxs-check-circle'></i>
-                                eCommerce Store</li>
-                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
-                        </ul>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-                </div>
-            </div>
+            <h3>Editor Picks</h3>
+            <hr class="divider">
         </div>
     </section>
-    <!-- PRICING -->
-
-    <!-- TEAM -->
-    <section id="team">
+    <section id="konten-2">
         <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-8 mx-auto text-center">
-                    <h6 class="text-primary">TEAM</h6>
-                    <h1>Meet Our Crew Members</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga
-                        in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
-                </div>
-            </div>
-            <div class="row text-center g-4">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="team-member card-effect">
-                        <img src="img/team1.jpg" alt="">
-                        <h5 class="mb-0 mt-4">Sharbat Khan</h5>
-                        <p>Web Developer</p>
-                        <div class="social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="team-member card-effect">
-                        <img src="img/team2.jpg" alt="">
-                        <h5 class="mb-0 mt-4">Sharbat Khan</h5>
-                        <p>Web Developer</p>
-                        <div class="social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="team-member card-effect">
-                        <img src="img/team3.jpg" alt="">
-                        <h5 class="mb-0 mt-4">Sharbat Khan</h5>
-                        <p>Web Developer</p>
-                        <div class="social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="team-member card-effect">
-                        <img src="img/team4.jpg" alt="">
-                        <h5 class="mb-0 mt-4">Sharbat Khan</h5>
-                        <p>Web Developer</p>
-                        <div class="social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h3>Action</h3>
+            <hr class="divider">
         </div>
     </section>
-    <!-- TEAM -->
-
-    <!-- BLOG -->
-    <section id="blog" class="bg-light">
+    <section id="konten-3">
         <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-8 mx-auto text-center">
-                    <h6 class="text-primary">BLOG</h6>
-                    <h1>Latest News From The Blog</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga
-                        in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="blog-post card-effect">
-                        <img src="img/blog1.jpg" alt="">
-                        <h5 class="mt-4"><a href="#">harum vitae debitis sapiente praesentium aperiam au</a></h5>
-                        <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="blog-post card-effect">
-                        <img src="img/blog2.jpg" alt="">
-                        <h5 class="mt-4"><a href="#">harum vitae debitis sapiente praesentium aperiam au</a></h5>
-                        <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="blog-post card-effect">
-                        <img src="img/blog3.jpg" alt="">
-                        <h5 class="mt-4"><a href="#">harum vitae debitis sapiente praesentium aperiam au</a></h5>
-                        <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet </p>
-                    </div>
-                </div>
-            </div>
-
+            <h3>Adventure</h3>
+            <hr class="divider">
         </div>
     </section>
-    <!-- BLOG -->
+    <!-- CONTENT -->
 
     <!-- CONTACT -->
     <section id="contact">
@@ -471,7 +137,7 @@
     </section>
     <!-- CONTACT -->
     <?php
-    include './pages/footer.php';
+    include './pages/include/footer.php';
     ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
