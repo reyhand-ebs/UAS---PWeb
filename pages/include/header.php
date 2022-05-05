@@ -29,7 +29,7 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-                <button class="btn btn-sm btn-primary ms-md-3 rounded-3">Join Us</button>
+                <a href="registrasi.php"><button class="btn btn-sm btn-primary ms-md-3 rounded-3">Join Us</button></a>
             </div>
         </div>
     </nav>
