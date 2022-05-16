@@ -32,25 +32,39 @@ require 'functions.php';
 	}
 </style>
 <body>
+	<?php
+    include './pages/include/header.php';
+    ?>
 	<h1>LOGIN</h1>
 
 	<form action="" method="post">
-		<ul>
-			<li>
-				<label for="username">Username :</label>
-				<input type="text" name="username" id="username">
-			</li>
-			<li>
-				<label for="password">Password :</label>
-				<input type="password" name="password" id="password">
-			</li>
-			<li>
-				<button type="submit" name="login">Login</button>
-			</li>
-			<?php if (isset($error)) : ?>
-				<p style="color: red; font-style: italic;">username atau password salah</p>
-			<?php endif; ?>
-		</ul>
-	</form>
+	<table class="table" border="0">
+	<tr>
+	<td>username</td>
+	<td>:</td>
+	<td><input type="text" class="form-control" id="nama" name="nama"></td>
+	</tr>
+	<tr>
+	<td>Password</td>
+	<td>:</td>
+	<td><input type="text" class="form-control" id="email" maxlength="50" name="email"></td>
+	<tr>
+	<td><?php if (isset($error)) : 
+        ?>
+	<td><p style="color: red; font-style: italic;">username atau password salah</p></td>
+		<?php endif; ?></td>
+	</tr>
+	</tr>
+	<tr>
+	<td></td>
+	<td></td>
+	<td><input type="submit" class="btn btn-primary" value="Save" name="btnSubmit">
+	    <input type="button" value="Cancel" class="btn btn-primary" name="btnReset"></td>
+	</tr>	
+	</table>    
+</form>
+	<?php
+    include './pages/include/footer.php';
+    ?>
 </body>
 </html>

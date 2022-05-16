@@ -18,6 +18,7 @@ require 'functions.php';
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
 	<title>REGISTRASI PAGE</title>
 </head>
 <style>
@@ -26,26 +27,46 @@ require 'functions.php';
 	}
 </style>
 <body>
+	<?php
+    include './pages/include/header.php';
+    ?>
 	<h1>REGISTRASI</h1>
 
-	<form action="" method="post"> //action diisi dengan kirim.php
-		<p>
-			<label for="username">username :</label>
-			<input type="text" name="username" id="username">
-		</p>
-		<p>
-			<label for="password">password :</label>
-			<input type="password" name="password" id="password">
-		</p>
-		<p>
-			<label for="password2">konfirmasi password :</label>
-			<input type="password" name="password2" id="password2">
-		</p>
-		<p>
-			<label for="email">email :</label>
-			<input type="text" name="email" id="email">
-		</p>
-		<button type="submit" name="register">Register</button>
-	</form>
+	<form action="" method="post">
+	<table class="table" border="0">
+	<tr>
+	<td>username</td>
+	<td>:</td>
+	<td><input type="text" class="form-control" id="nama" name="nama"></td>
+	</tr>
+	<tr>
+	<td>Password</td>
+	<td>:</td>
+	<td><input type="text" class="form-control" id="email" maxlength="50" name="email"></td>
+	</tr>
+	<tr>
+	<td>konfirmasi Password</td>
+	<td>:</td>
+	<td><input type="password" class="form-control" id="password" name="password"></td>
+	</tr>	
+	<tr>
+	<td>Email</td>
+	<td>:</td>
+	<td><input type="password" class="form-control" id="password" name="password"></td>
+	</tr>
+	<tr>
+	<tr>
+	<td>sudah punya account?	<a href="login.php" style="color: #4285F4">login</a></td>
+	</tr>
+	<td></td>
+	<td></td>
+	<td><input type="submit" class="btn btn-primary" value="Save" name="btnSubmit">
+	    <input type="button" value="Cancel" class="btn btn-primary" name="btnReset"></td>
+	</tr>	
+	</table>    
+</form>
+	<?php
+    include './pages/include/footer.php';
+    ?>
 </body>
 </html>

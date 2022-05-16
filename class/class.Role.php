@@ -1,5 +1,5 @@
 <?php 
-	class Role {
+	{
 		private $id = 0;
 		private $role = '';
 
