@@ -17,6 +17,7 @@
     <?php
     include './pages/include/header.php';
     ?>
+
     <!-- HERO -->
     <div class="container col-xxl-10 px-3 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">

@@ -3,7 +3,7 @@
 
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Header</title>
 </head>
 
@@ -29,7 +29,7 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-                <a href="registrasi.php"><button class="btn btn-sm btn-primary ms-md-3 rounded-3">Join Us</button></a>
+                <a href='./pages/Login-registration/login.php'><button class="btn btn-sm btn-primary ms-md-3 rounded-3">Join Us</button></a>
             </div>
         </div>
     </nav>
