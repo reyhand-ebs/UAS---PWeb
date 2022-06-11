@@ -2,15 +2,13 @@
 <html lang="en">
 
 <head>
+    <title>Tubirit</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tubirit</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -44,7 +42,7 @@
                     <p>Membaca semakin mudah. Baca buku, soft file buku, dan berbagi rekomendasi buku bacaan. Di mana pun, kapan pun dengan nyaman bersama setiap orang.</p>
                 </div>
             </div>
-            <div class="row g-4">
+            <div class="row g-3">
                 <div class="col-lg-4 col-sm-6">
                     <div class="service card-effect bounceInUp">
                         <div class="iconbox">
