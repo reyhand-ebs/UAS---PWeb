@@ -9,7 +9,7 @@
 
 <body>
     <footer>
-        <div class="footer-top">
+        <div class="footer-top mt-20">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-4">

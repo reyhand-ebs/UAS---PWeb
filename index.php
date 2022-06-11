@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+<body>
     <?php
     include 'pages/include/header.php';
     ?>

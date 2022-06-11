@@ -50,22 +50,22 @@
 				<div class="single_address">
 					<i class="fa fa-map-marker"></i>
 					<h4>Our Address</h4>
-					<p>3481 Melrose Place, Beverly Hills</p>
+					<p>TB Simatupang Street, South Jakarta</p>
 				</div>
 				<div class="single_address">
 					<i class="fa fa-envelope"></i>
 					<h4>Send your message</h4>
-					<p>Info@example.com</p>
+					<p>tubirit@gmail.com</p>
 				</div>
 				<div class="single_address">
 					<i class="fa fa-phone"></i>
 					<h4>Call us on</h4>
-					<p>(+1) 517 397 7100</p>
+					<p>(+62) 812 1234 5678</p>
 				</div>
 				<div class="single_address">
 					<i class="fa fa-clock-o"></i>
 					<h4>Work Time</h4>
-					<p>Mon - Fri: 08.00 - 16.00. <br>Sat: 10.00 - 14.00</p>
+					<p>Mon - Fri: 08.00 - 16.00 <br>Sat: 10.00 - 14.00</p>
 				</div>					
 			</div><!--- END COL --> 
 		</div><!--- END ROW -->

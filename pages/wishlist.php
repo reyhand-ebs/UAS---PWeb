@@ -19,7 +19,7 @@
         <div class="col-lg-4 pb-5">
             <!-- Account Sidebar-->
             <div class="author-card pb-3">
-                <div class="author-card-cover" style="background-image: url();"></div>
+                <div class="author-card-cover" style="background-image: url()"></div>
                 <div class="author-card-profile">
                     <div class="author-card-avatar"><img src="../img/profileimage.png" alt="profile">
                     </div>
@@ -33,14 +33,14 @@
                     <a class="list-group-item" href="profilesettings.php" target="__blank"><i class="fa fa-user text-muted"></i>Profile Settings</a>
                     <a class="list-group-item" href="wishlist.php">
                         <div class="d-flex justify-content-between align-items-center">
-                            <div><i class="fa fa-heart mr-1 text-muted"></i>
-                                <div class="d-inline-block font-weight-medium text-uppercase">My Wishlist</div>
+                            <div><i class="fa fa-th mr-1 text-muted"></i>
+                                <div class="d-inline-block font-weight-medium text-uppercase">My Library</div>
                             </div><span class="badge badge-secondary">3</span>
                         </div>
                     </a>
                     <a class="list-group-item" href="history.php" target="__blank">
                         <div class="d-flex justify-content-between align-items-center">
-                            <div><i class="fa fa-tag mr-1 text-muted"></i>
+                            <div><i class="fa fa-clock-o mr-1 text-muted"></i>
                                 <div class="d-inline-block font-weight-medium text-uppercase">History</div>
                             </div><span class="badge badge-secondary">4</span>
                         </div>
