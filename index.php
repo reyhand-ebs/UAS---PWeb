@@ -15,7 +15,7 @@
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
     <?php
-    include './pages/include/header.php';
+    include 'pages/include/header.php';
     ?>
 
     <!-- HERO -->
