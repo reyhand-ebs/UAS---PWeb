@@ -20,13 +20,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="../index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#features">Kategori</a>
+                        <a class="nav-link" href="../pages/explore.php">Explore</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="../pages/contact.php">Contact</a>
                     </li>
                 </ul>
                 <a href='./pages/Login-registration/login.php'><button class="btn btn-sm btn-primary ms-md-3 rounded-3">Join Us</button></a>

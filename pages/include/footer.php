@@ -18,8 +18,8 @@
                     <div class="col-lg-2">
                         <h5 class="text-white">Brand</h5>
                         <ul class="list-unstyled">
-                            <li><a href="#">Kategori</a></li>
-                            <li><a href="#">Kontak</a></li>
+                            <li><a href="../explore.php">Explore</a></li>
+                            <li><a href="../contact.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-2">
