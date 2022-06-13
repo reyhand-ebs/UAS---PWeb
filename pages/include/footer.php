@@ -8,7 +8,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD
     <footer>
         <div class="footer-top mt-20">
             <div class="container">
@@ -55,40 +54,6 @@
                             <a href="#"><i class='bx bxl-facebook'></i></a>
                             <a href="#"><i class='bx bxl-twitter'></i></a>
                             <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-=======
-    <div class="container-fluid m-0 p-0">
-        <footer class="footer footer-dark bg-black text-light">
-            <div class="footer-top mt-20">
-                <div class="container">
-                    <div class="row gy-4">
-                        <div class="col-lg-2">
-                            <img class="logo w-75" src="../img/logofooter.png" alt="">
-                        </div>
-                        <div class="col-lg-3">
-                            <h5 class="text-white">Brand</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="../explore.php">Explore</a></li>
-                                <li><a href="../contact.php">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3">
-                            <h5 class="text-white">More</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="#">FAQ's</a></li>
-                                <li><a href="#">Privacy & Policy</a></li>
-                                <li><a href="#">Warranty</a></li>
-                                <li><a href="#">Shipment</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-4">
-                            <h5 class="text-white">Contact</h5>
-                            <ul class="list-unstyled">
-                                <li>Address: Jl. TB Simatupang</li>
-                                <li>Email: chiekal.mulia@students.esqbs.ac.id</li>
-                                <li>Email: khaira.isyara@students.esqbs.ac.id</li>
-                                <li>Email: mohamad.reyhand.f@students.esqbs.ac.id</li>
-                            </ul>
->>>>>>> 336206b578f775a625709082c4f3ae6ff23e33e0
                         </div>
                     </div>
                 </div>
