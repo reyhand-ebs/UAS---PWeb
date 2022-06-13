@@ -12,11 +12,7 @@
     <nav class="navbar navbar-expand-lg py-2 sticky-top navbar-dark bg-black shadow-lg">
         <div class="container">
             <a class="navbar-brand" href="#">
-<<<<<<< HEAD
                 <img class="logo" src="img/logoheader.png" alt="">
-=======
-                <img class="logo w-25 m-2" src="../img/logonavbar.png" alt="">
->>>>>>> 336206b578f775a625709082c4f3ae6ff23e33e0
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
