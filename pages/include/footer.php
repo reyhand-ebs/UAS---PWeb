@@ -3,7 +3,7 @@
 
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Footer</title>
 </head>
 
@@ -13,7 +13,7 @@
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-4">
-                        <img class="logo" src="img/logo-white.png" alt="">
+                        <img class="logo" src="img/logofooter.png" alt="">
                     </div>
                     <div class="col-lg-2">
                         <h5 class="text-white">Brand</h5>

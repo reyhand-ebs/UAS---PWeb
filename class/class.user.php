@@ -1,14 +1,13 @@
 <?php 
 	class Account {
-	    private $id = 0;
-		private $nama = '';
+	    private $userid = '';
 		private $email = '';
 		private $password = '';
-		private $role = '';
-		private $idrole = 0;
-		private $kota = '';
-        private $negara = '';
-        private $history = '';
+		private $fname = '';
+		private $lname = '';
+		private $nohp = '';
+		private $foto = '';
+		private $idrole = '';
 
 		public function __get($atribute) {
 			if (property_exists($this, $atribute)) {
