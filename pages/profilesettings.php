@@ -13,65 +13,112 @@
 
 <body>
     <?php
+    require_once('../class/class.User.php');
+
+    $objUser = new User();
+    if (isset($_POST['btnUpdate'])) {
+        $objUser->userid = $_POST['userid'];
+        $objUser->foto = $_POST['foto'];
+        $isSuccessUpload = false;
+
+        if (file_exists($_FILES['foto']['tmp_name']) || is_uploaded_file($_FILES['foto']['tmp_name'])) {
+            $lokasifile = $_FILES['foto']['tmp_name'];
+            $nama_file =  $_FILES['foto']['name'];
+            $extension  = pathinfo($_FILES["foto"]["name"], PATHINFO_EXTENSION);
+            $objUser->foto = $objUser->userid . '.' . $extension;
+            $folder = './upload/';
+            $isSuccessUpload = move_uploaded_file($lokasifile, $folder . $objUser->foto);
+        } else
+            $isSuccessUpload = true;
+
+
+        if ($isSuccessUpload) {
+            $objUser->userid = $_SESSION['userid'];
+            $objUser->fname = $_POST['fname'];
+            $objUser->lname = $_POST['lname'];
+            $objUser->email = $_POST['email'];
+            $objUser->nohp = $_POST['nohp'];
+            $objUser->foto = $_POST['foto'];
+
+            $objUser->UpdateUser();
+
+            echo "<script> alert('$objUser->message'); </script>";
+            echo '<script> window.location = "' . $_SERVER['REQUEST_URI'] . '";</script>';
+        }
+    } else if (isset($_SESSION['userid'])) {
+        $objUser->userid = $_SESSION['userid'];
+        $objUser->SelectOneUser();
+    }
+    ?>
+    <?php
     include 'include/header.php';
     ?>
-    <div class="container-fluid pb-5">
-        <div class="row">
-            <!-- Profile Settings-->
-            <div class="section-title text-center py-5">
-			    <h1>Profile Settings</h1>
-		    </div>
-            <div class="col-lg-4 pb-5">
-                <img src="../img/profileimage.png" class="img-rounded rounded-circle float-start w-75 pb-3">
-                <div class="mb-3 me-4 py-4">
-                    <input class="form-control" type="file" id="formFile">
+    <div class="container py-5 pb-5">
+        <h2 class="pb-5"><strong>Profile Settings</strong></h2>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-md-3">
+                    <?php
+                    if ($objUser->foto != NULL)
+                        echo '<img class="img-rounded img-responsive" src="' . $objUser->foto . '">';
+                    else
+                        echo '<img class="img-rounded img-responsive" src="../img/default.png">';
+                    ?>
+                    <input type="hidden" name="foto" value="<?php echo $objUser->foto; ?>">
+                    <br>
+                    <span>Browse Picture</span>
+                    <input type="file" name="foto"></input>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-12 py-3">
+                            <div class="form-group">
+                                <label for="account-fn">User Id</label>
+                                <input class="form-control" type="text" id="account-fn" readonly value="<?php echo $objUser->userid; ?>" placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6 py-3">
+                            <div class="form-group">
+                                <label for="account-fn">First Name</label>
+                                <input class="form-control" type="text" id="account-fn" value="<?php echo $objUser->fname; ?>" placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6 py-3">
+                            <div class="form-group">
+                                <label for="account-ln">Last Name</label>
+                                <input class="form-control" type="text" id="account-ln" value="<?php echo $objUser->lname; ?>" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6 py-3">
+                            <div class="form-group">
+                                <label for="account-email">Email Address</label>
+                                <input class="form-control" type="email" id="account-email" value="<?php echo $objUser->email; ?>" placeholder="Email Address">
+                            </div>
+                        </div>
+                        <div class="col-md-6 py-3">
+                            <div class="form-group">
+                                <label for="account-phone">Phone Number</label>
+                                <input class="form-control" type="text-number" id="account-phone" value="<?php echo $objUser->nohp; ?>" placeholder="Your Phone Number">
+                            </div>
+                        </div>
+                        <div class="col-md-6 py-3">
+                            <div class="form-group">
+                                <label for="account-pass">New Password</label>
+                                <input class="form-control" type="password" id="account-pass" placeholder="*Click to change">
+                            </div>
+                        </div>
+                        <div class="col-md-6 py-3">
+                            <div class="form-group">
+                                <label for="account-confirm-pass">Confirm Password</label>
+                                <input class="form-control" type="password" id="account-confirm-pass" placeholder="*Click to change">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-8 pb-5">
-                <form class="row" method="POST" action="profile.php">
-                    <div class="col-md-6 py-3">
-                        <div class="form-group">
-                            <label for="account-fn">First Name</label>
-                            <input class="form-control" type="text" id="account-fn" value="" placeholder="First Name">
-                        </div>
-                    </div>
-                    <div class="col-md-6 py-3">
-                        <div class="form-group">
-                            <label for="account-ln">Last Name</label>
-                            <input class="form-control" type="text" id="account-ln" value="" placeholder="Last Name">
-                        </div>
-                    </div>
-                    <div class="col-md-6 py-3">
-                        <div class="form-group">
-                            <label for="account-email">Email Address</label>
-                            <input class="form-control" type="email" id="account-email" value="" placeholder="Email Address">
-                        </div>
-                    </div>
-                    <div class="col-md-6 py-3">
-                        <div class="form-group">
-                            <label for="account-phone">Phone Number</label>
-                            <input class="form-control" type="text-number" id="account-phone" value="" placeholder="Your Phone Number">
-                        </div>
-                    </div>
-                    <div class="col-md-6 py-3">
-                        <div class="form-group">
-                            <label for="account-pass">New Password</label>
-                            <input class="form-control" type="password" id="account-pass" placeholder="*Click to change">
-                        </div>
-                    </div>
-                    <div class="col-md-6 py-3">
-                        <div class="form-group">
-                            <label for="account-confirm-pass">Confirm Password</label>
-                            <input class="form-control" type="password" id="account-confirm-pass" placeholder="*Click to change">
-                        </div>
-                    </div>
-                    <div class="py-4">
-                        <button class="btn btn-style-1 btn-primary" type="button" data-toast="" data-toast-position="topRight" data-toast-type="success" data-toast-icon="fe-icon-check-circle" data-toast-title="Success!" data-toast-message="Your profile updated successfuly.">Update Profile</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>  
+            <input type="submit" class="btn btn-success" value="Update Profile" name="btnUpdate">
+        </form>
+    </div>
     <?php
     include 'include/footer.php';
     ?>

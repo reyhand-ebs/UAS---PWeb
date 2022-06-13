@@ -12,7 +12,7 @@
     <nav class="navbar navbar-expand-lg py-2 sticky-top navbar-dark bg-black shadow-lg">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img class="logo" src="img/logoheader.png" alt="">
+                <img class="logo" src="../img/logoheader.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link" href="../index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./pages/explore.php">Explore</a>
