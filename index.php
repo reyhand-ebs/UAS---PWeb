@@ -2,21 +2,40 @@
 <html lang="en">
 
 <head>
+    <title>Tubirit</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tubirit</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <?php
-    include 'pages/include/header.php';
-    ?>
+    <nav class="navbar navbar-expand-lg py-2 sticky-top navbar-dark bg-black shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="logo w-25 m-2" src="./img/logonavbar.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/explore.php">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contact.php">Contact</a>
+                    </li>
+                </ul>
+                <a href='./Login-registration/index.php'><button class="btn btn-sm btn-primary ms-md-3 rounded-3">Join Us</button></a>
+            </div>
+        </div>
+    </nav>
 
     <!-- HERO -->
     <div class="container col-xxl-10 px-3 py-5">
@@ -44,7 +63,7 @@
                     <p>Membaca semakin mudah. Baca buku, soft file buku, dan berbagi rekomendasi buku bacaan. Di mana pun, kapan pun dengan nyaman bersama setiap orang.</p>
                 </div>
             </div>
-            <div class="row g-4">
+            <div class="row g-3">
                 <div class="col-lg-4 col-sm-6">
                     <div class="service card-effect bounceInUp">
                         <div class="iconbox">
@@ -159,9 +178,60 @@
         </div>
     </section>
     <!-- CONTACT -->
-    <?php
-    include './pages/include/footer.php';
-    ?>
+    <div class="container-fluid m-0 p-0">
+        <footer class="footer footer-dark bg-black text-light">
+            <div class="footer-top mt-20">
+                <div class="container">
+                    <div class="row gy-4">
+                        <div class="col-lg-2">
+                            <img class="logo w-75" src="./img/logofooter.png" alt="">
+                        </div>
+                        <div class="col-lg-3">
+                            <h5 class="text-white">Brand</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="./explore.php">Explore</a></li>
+                                <li><a href="./contact.php">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h5 class="text-white">More</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">FAQ's</a></li>
+                                <li><a href="#">Privacy & Policy</a></li>
+                                <li><a href="#">Warranty</a></li>
+                                <li><a href="#">Shipment</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5 class="text-white">Contact</h5>
+                            <ul class="list-unstyled">
+                                <li>Address: Jl. TB Simatupang</li>
+                                <li>Email: chiekal.mulia@students.esqbs.ac.id</li>
+                                <li>Email: khaira.isyara@students.esqbs.ac.id</li>
+                                <li>Email: mohamad.reyhand.f@students.esqbs.ac.id</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="mb-0">© 2022 copyright all right reserved | Designed with by TUBIRIT</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="social-icons">
+                                <a href="#"><i class='bx bxl-facebook'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
+                                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
