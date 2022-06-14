@@ -13,7 +13,7 @@
 </head>
 <body>
 <?php
-include 'pages/include/header-member.php';
+include 'pages/include/header-admin.php';
 ?>
     <div class="container">
         <div class="row">
@@ -161,7 +161,7 @@ include 'pages/include/header-member.php';
 </div>
 
 <div class="container py-5">
-    <a href="./pages/exploremember.php"><button type="button" class="btn btn-primary rounded-pill">Explore more >></button></a>
+    <a href="./pages/exploreadmin.php"><button type="button" class="btn btn-primary rounded-pill">Explore more >></button></a>
 </div>
 
 <div class="container">

@@ -30,7 +30,7 @@
                         <a class="nav-link" href="./pages/contact.php">Contact</a>
                     </li>
                 </ul>
-                <a href='./Login-registration/index.php'><button class="btn btn-sm btn-primary ms-md-3 rounded-3">Join Us</button></a>
+                <a href='/pages/Login-registration/index.php'><button class="btn btn-sm btn-primary ms-md-3 rounded-3">Join Us</button></a>
             </div>
         </div>
     </nav>

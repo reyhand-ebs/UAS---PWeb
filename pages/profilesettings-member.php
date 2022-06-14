@@ -51,7 +51,7 @@
     }
     ?>
     <?php
-    include 'include/header-admin.php';
+    include 'include/header-member.php';
     ?>
     <div class="container py-5 pb-5">
         <h2 class="pb-5"><strong>Profile Settings</strong></h2>

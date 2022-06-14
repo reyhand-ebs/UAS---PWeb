@@ -20,22 +20,21 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="../dashboardmember.php">Home</a>
+                        <a class="nav-link" href="./dashboardadmin.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/exploremember.php">Explore</a>
+                        <a class="nav-link" href="./pages/exploreadmin.php">Explore</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/contact.php">Contact</a>
+                        <a class="nav-link" href="./pages/requestedlist.php">Requested List</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./requestbook.php">Request Book</a>
+                        <a class="nav-link" href="./pages/userlist.php">User List</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Profile</a>
                         <div class="dropdown-menu">
-                        <a class="dropdown-item" href="./profilesettings-member.php">Profile Settings</a>
-                        <a class="dropdown-item" href="./history.php">History</a>
+                        <a class="dropdown-item" href="./profilesettings.php">Profile Settings</a>
                         </div>
                     </li>
                 </ul>

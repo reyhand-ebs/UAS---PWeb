@@ -12,42 +12,9 @@
 
 <body>
     <?php
-    include 'include/header.php';
+    include 'include/header-member.php';
     ?>
     <div class="container mb-4">
-    <div class="row">
-        <div class="col-lg-4 pb-5">
-            <!-- Account Sidebar-->
-            <div class="author-card pb-3">
-                <div class="author-card-cover" style="background-image: url()"></div>
-                <div class="author-card-profile">
-                    <div class="author-card-avatar"><img src="../img/profileimage.png" alt="profile">
-                    </div>
-                    <div class="author-card-details">
-                        <h5 class="author-card-name text-lg">Full Name</h5><span class="author-card-position">email@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="wizard">
-                <nav class="list-group list-group-flush">
-                    <a class="list-group-item" href="profilesettings.php" target="__blank"><i class="fa fa-user text-muted"></i>Profile Settings</a>
-                    <a class="list-group-item" href="wishlist.php">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div><i class="fa fa-th mr-1 text-muted"></i>
-                                <div class="d-inline-block font-weight-medium text-uppercase">My Library</div>
-                            </div><span class="badge badge-secondary">3</span>
-                        </div>
-                    </a>
-                    <a class="list-group-item" href="history.php" target="__blank">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div><i class="fa fa-clock-o mr-1 text-muted"></i>
-                                <div class="d-inline-block font-weight-medium text-uppercase">History</div>
-                            </div><span class="badge badge-secondary">4</span>
-                        </div>
-                    </a>
-                </nav>
-            </div>
-        </div>
         <!-- History Table-->
         <div class="col-lg-8 pb-5">
             <div class="table-responsive">
@@ -64,7 +31,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a class="navi-link" href="#order-details" data-toggle="modal">16101201</a></td>
+                            <td><a class="navi-link" data-toggle="modal">16101201</a></td>
                             <td>June 11, 2022</td>
                             <td>Kuliah</td>
                             <td>Database</td>
@@ -72,7 +39,7 @@
                             <td><span class="badge badge-danger m-0">Ditolak</span></td>
                         </tr>
                         <tr>
-                            <td><a class="navi-link" href="#order-details" data-toggle="modal">16101202</a></td>
+                            <td><a class="navi-link" data-toggle="modal">16101202</a></td>
                             <td>June 12, 2022</td>
                             <td>Kuliah</td>
                             <td>Database</td>
@@ -80,7 +47,7 @@
                             <td><span class="badge badge-warning m-0">Menunggu</span></td>
                         </tr>
                         <tr>
-                            <td><a class="navi-link" href="#order-details" data-toggle="modal">16101203</a></td>
+                            <td><a class="navi-link" data-toggle="modal">16101203</a></td>
                             <td>July 28, 2022</td>
                             <td>Kuliah</td>
                             <td>Database</td>
@@ -88,7 +55,7 @@
                             <td><span class="badge badge-warning m-0">Menunggu</span></td>
                         </tr>
                         <tr>
-                            <td><a class="navi-link" href="#order-details" data-toggle="modal">16101204</a></td>
+                            <td><a class="navi-link" data-toggle="modal">16101204</a></td>
                             <td>August 1, 2022</td>
                             <td>Kuliah</td>
                             <td>Database</td>
@@ -96,7 +63,7 @@
                             <td><span class="badge badge-success m-0">Disetujui</span></td>
                         </tr>
                         <tr>
-                            <td><a class="navi-link" href="#order-details" data-toggle="modal">16101205</a></td>
+                            <td><a class="navi-link" data-toggle="modal">16101205</a></td>
                             <td>August 2,2022</td>
                             <td>Kuliah</td>
                             <td>Database</td>
