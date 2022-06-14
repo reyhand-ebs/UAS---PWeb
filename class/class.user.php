@@ -2,7 +2,7 @@
 include('../inc.koneksi.php');
 
 class User extends Connection {
-	private $userid=0;
+	private $userid='';
 	private $email='';
 	private $password='';
 	private $fname='';
