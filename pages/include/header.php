@@ -24,13 +24,13 @@
                         <a class="nav-link" href="../index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/explore.php">Explore</a>
+                        <a class="nav-link" href="./explore.php">Explore</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/contact.php">Contact</a>
+                        <a class="nav-link" href="./contact.php">Contact</a>
                     </li>
                 </ul>
-                <a href='./registrasi.php'><button class="btn btn-sm btn-primary ms-md-3 rounded-3">Join Us</button></a>
+                <a href='./pages/registrasi.php'><button class="btn btn-sm btn-primary ms-md-3 rounded-3">Join Us</button></a>
             </div>
         </div>
     </nav>

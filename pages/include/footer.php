@@ -17,17 +17,8 @@
                     <div class="col-lg-2">
                         <h5 class="text-white">Brand</h5>
                         <ul class="list-unstyled">
-                            <li><a href="../explore.php">Explore</a></li>
-                            <li><a href="../contact.php">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2">
-                        <h5 class="text-white">More</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="#">FAQ's</a></li>
-                            <li><a href="#">Privacy & Policy</a></li>
-                            <li><a href="#">Warranty</a></li>
-                            <li><a href="#">Shipment</a></li>
+                            <li><a href="./explore.php">Explore</a></li>
+                            <li><a href="./contact.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4">

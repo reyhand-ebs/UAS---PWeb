@@ -20,13 +20,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="../dashboardmember.php">Home</a>
+                        <a class="nav-link" href="./dashboardmember.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/exploremember.php">Explore</a>
+                        <a class="nav-link" href="./pages/exploremember.php">Explore</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/contact.php">Contact</a>
+                        <a class="nav-link" href="./pages/contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./requestbook.php">Request Book</a>
@@ -39,7 +39,7 @@
                         </div>
                     </li>
                 </ul>
-                <a href='./Login-registration/index.php'><button class="btn btn-sm btn-danger ms-md-3 rounded-3">Logout</button></a>
+                <a href='./login.php'><button class="btn btn-sm btn-danger ms-md-3 rounded-3">Logout</button></a>
             </div>
         </div>
     </nav>
