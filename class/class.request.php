@@ -1,5 +1,5 @@
 <?php 
-	
+    include ('../inc.koneksi.php');
 	class Request extends Connection
 	{
 		private $reqid='';
@@ -61,7 +61,7 @@
             $this->reqhalaman=$data->reqhalaman;
             $this->reqtahun=$data->reqtahun;
             $this->reqsummary=$data->reqsummary;
-            $this->reqstatus=$data->reqstatus;
+
 			$arrResult[$cnt] = $objRequest;
 			$cnt++;
 			}

@@ -74,7 +74,7 @@
                         <div class="col-md-12 py-3">
                             <div class="form-group">
                                 <label for="account-fn">User Id</label>
-                                <input class="form-control" type="text" id="account-fn" readonly value="<?php echo $objUser->userid; ?>" placeholder="First Name">
+                                <input class="form-control" type="text" id="account-fn" readonly value="<?php echo $objUser->userid; ?>" placeholder="User ID">
                             </div>
                         </div>
                         <div class="col-md-6 py-3">

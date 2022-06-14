@@ -18,6 +18,7 @@
     ?>
     <div class="container py-5 pb-5">
         <h2 class="pb-5"><strong>User List</strong></h2>
+    <table class="table table-bordered">
         <thead>
             <tr>
                 <th>No.</th>
@@ -56,6 +57,7 @@
             }
             ?>
         </tbody>
+</table>
     </div>
     <?php
     include 'include/footer.php';

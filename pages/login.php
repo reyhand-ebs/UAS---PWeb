@@ -23,8 +23,8 @@ if (isset($_POST['btnSubmit'])) {
 			
 			echo "<script>alert('Login sukses');</script>";		
 				
-			if($objUser->role == 'employee')
-				echo '<script>window.location = "profilesettings.php";</script>';
+			if($objUser->role == 'Admin')
+				echo '<script>window.location = "index.php";</script>';
 		}
 		else{
 			echo "<script>alert('Password tidak match');</script>";							

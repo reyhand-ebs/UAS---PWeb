@@ -1,7 +1,20 @@
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Requested List</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
 <?php
-    include ('../inc.koneksi.php');
-  require_once "authorization_admin.php";
-?>
+    include 'include/header-admin.php';
+    ?>
 <div class="container">  
 <div>			
   <h4 class="title"><span class="text"><strong>Requested List</strong></span></h4>
@@ -22,7 +35,7 @@
 	<th>Halaman</th>
 	<th>Tahun</th>
 	<th>Summary</th>
-	<th>Status</th>
+	<th>Action</th>
 	</tr>	
 	</thead>
 	<tbody>
@@ -50,10 +63,10 @@
 					echo '<td>'.$dataRequest->reqtahun.'</td>';
                     echo '<td>'.$dataRequest->reqsummary.'</td>';
 					echo '<td width="10%">
-                            <a class="btn btn-success btn-sm"  href="dashboardadmin.php?p=employee&ssn='.$dataRequest->ssn.'">
-                            onclick="return confirm(\'Apakah anda yakin ingin menyetujui permintaan ini?\')"><span class="glyphicon glyphicon-edit"></span></a>
+                            <a class="btn btn-success btn-sm"  href="dashboardadmin.php?p=employee&ssn='.$dataRequest->ssn.'"
+                            onclick="return confirm(\'Apakah anda yakin ingin menyetujui permintaan ini?\')"><span class="glyphicon glyphicon-edit"></span>Setuju</a>
    					        <a class="btn btn-danger btn-sm"  href="dashboardadmin.php?p=deleteemployee&ssn='.$dataRequest->ssn.'"
-                            onclick="return confirm(\'Apakah anda yakin ingin menolak permintaan ini?\')"> <span class="glyphicon glyphicon-remove"></span></a>
+                            onclick="return confirm(\'Apakah anda yakin ingin menolak permintaan ini?\')"> <span class="glyphicon glyphicon-remove"></span>Tolak</a>
 							  </td>';	
 				echo '</tr>';				
 				$no++;	
@@ -65,4 +78,7 @@
 
 </div>
 </div>
-
+<?php
+    include 'include/footer.php';
+    ?>
+<body>

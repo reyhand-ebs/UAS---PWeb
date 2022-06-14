@@ -11,7 +11,7 @@
     <nav class="navbar navbar-expand-lg py-2 sticky-top navbar-dark bg-black">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img class="logo" src="img/logoheader.png" alt="">
+                <img class="logo" src="img/logonavbar.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,25 +20,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="./dashboardadmin.php">Home</a>
+                        <a class="nav-link" href="../dashboardadmin.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./pages/exploreadmin.php">Explore</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/requestedlist.php">Requested List</a>
+                        <a class="nav-link" href="./requestedlist.php">Requested List</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/userlist.php">User List</a>
+                        <a class="nav-link" href="./userlist.php">User List</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Profile</a>
-                        <div class="dropdown-menu">
-                        <a class="dropdown-item" href="./profilesettings.php">Profile Settings</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./profilesettings.php">Profile</a>
                     </li>
                 </ul>
-                <a href='./Login-registration/index.php'><button class="btn btn-sm btn-danger ms-md-3 rounded-3">Logout</button></a>
+                <a href='./login.php'><button class="btn btn-sm btn-danger ms-md-3 rounded-3">Logout</button></a>
             </div>
         </div>
     </nav>

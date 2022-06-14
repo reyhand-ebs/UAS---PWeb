@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Header</title>
+    <title>TUBIRIT</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
                         <a class="nav-link" href="./pages/contact.php">Contact</a>
                     </li>
                 </ul>
-                <a href='/pages/Login-registration/index.php'><button class="btn btn-sm btn-primary ms-md-3 rounded-3">Join Us</button></a>
+                <a href='./registrasi.php'><button class="btn btn-sm btn-primary ms-md-3 rounded-3">Join Us</button></a>
             </div>
         </div>
     </nav>
