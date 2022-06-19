@@ -35,7 +35,8 @@
 		}
 
 		public function UpdateBuku(){
-			$sql = "UPDATE buku SET judul = '$this->judul'",
+			$sql = "UPDATE buku SET 
+					judul = '$this->judul',
 					penulis = '$this->penulis',
 					penerbit = '$this->penerbit',
 					rating = '$this->rating',
